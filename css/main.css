@@ -1,0 +1,179 @@
+/************ Base Styles **************/
+body{
+    color: #10002B;
+    font-family: 'Piazzolla', serif;
+}
+
+/*************** Grid ***************/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+}
+
+/********************* Header ******************/
+
+header .full-width{
+    height: 550px;
+    background-image: url("../img/dominik-scythe-p1SjJPVZPCM-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 72px;
+    color: #240046;
+    padding-left: 50px;
+}
+
+nav{
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #240046;
+    font-family: 'Piazzolla', serif;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+/***************** About ***********************/
+
+#about .full-width{
+    background-color: #9D4EDD;
+    height: 450px;
+}
+
+#about h2{
+    color: #240046;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 38px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+#about p{
+    color: #240046;
+    font-family: 'Piazzolla', serif;
+    font-size: 24px;
+    line-height: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-indent: 55px;
+}
+
+/********************* Skills ********************/
+
+#skills .full-width{
+    background-color: #9D4EDD;
+    height: 800px;
+}
+
+#skills h2{
+    color: #240046;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 60px;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+#skills ul li{
+    color: #240046;
+    font-family: 'Piazzolla', serif;
+    font-size: 36px;
+    line-height: 60px;
+    padding-left: 30px;
+}
+
+#skills ul{
+    padding-left: 75px;
+}
+
+#skills img{
+    border: 10px solid #10002b;
+    height: 780px;
+    width: 580px;
+    object-fit: cover;
+}
+
+/********************** my-portfolio *******************/
+
+#my-portfolio .full-width{
+    height: 950px;
+}
+
+#my-portfolio h2{
+    color: #3C096C;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+#my-portfolio div{
+    text-align: center;
+}
+
+#my-portfolio img{
+    height: 500px;
+    width: 550px;
+    object-fit: fill;
+    display: inline-block;
+}
+
+#my-portfolio p{
+    color: #3C096C;
+    font-family: 'Piazzolla', serif;
+    font-size: 36px;
+    line-height: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/********************* contact ********************/
+
+#contact .full-width{
+    height: 600px;
+}
+
+#contact h2{
+    color: #3C096C;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+#contact p{
+    color: #3C096C;
+    font-family: 'Piazzolla', serif;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#contact a{
+    font-family: 'Piazzolla', serif;
+    font-size: 24px;
+    line-height: 40px;
+    padding-left: 160px;
+}
+
+#contact img{
+    border: 10px solid #3C096C;
+    height: 580px;
+    width: 580px;
+    object-fit: cover;
+}
+    
